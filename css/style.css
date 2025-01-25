@@ -11,7 +11,7 @@ body {
 }
 
 .wrapper{
-    padding: 50px ;
+    padding: 0px 0px;
 }
 
 
@@ -25,7 +25,6 @@ body {
   align-content: center;
 }
 
-
 nav .nav-wrapper {
   width: 80%;
   height: 100%;
@@ -38,16 +37,10 @@ nav .nav-wrapper {
 nav .nav-wrapper .logo-container {
   color: white;
   font-size: 16px;
-  display: flex;
-}
-
-nav .nav-wrapper .logo-container img{
-  width: 60px;
-  height: 60px;
-
 }
 
 nav .nav-wrapper .topnav-right {
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
@@ -210,12 +203,12 @@ font-size:14px ;
   }}
   @media only screen and (max-width: 855px){
   nav .nav-wrapper h1  {
-    /* font-size: 20px; */
+    font-size: 20px;
   }}
 
   @media only screen and (max-width: 768px) {
     .navbar {
-      height: 72px;}
+      height: 52px;}
     nav .nav-wrapper {
       flex-direction: row;
     }
@@ -261,16 +254,6 @@ font-size:14px ;
 
 
 
-  @media only screen and (max-width: 768px) {
-
-    .menu-toggle-label {
-     order: 3;
-    }
-    nav .nav-wrapper .navbar-left {
-     order: 1;
-    }
-    nav .nav-wrapper .logo-container {
-    order: 0;
-    }
+  @media only screen and (max-width: 426px) {
      .footer-container { 
   flex-direction: column-reverse;}}
